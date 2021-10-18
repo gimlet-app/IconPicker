@@ -1,14 +1,15 @@
 /*!
 * IconPicker DEMO ('https://github.com/furcan/IconPicker')
-* Version: 1.5.0
-* Author: Furkan MT ('https://github.com/furcan')
-* Dependencies: FontAwesome v5.11.2 (https://fontawesome.com/license/free)
-* Copyright 2019 IconPicker, MIT Licence ('https://opensource.org/licenses/MIT')*
+* Version: 1.6.0
+* Author: Furkan MT ('https://github.com/furcan') + Eric (v6 update)
+* Dependencies: FontAwesome v6.0.0.beta2 (https://fontawesome.com/license/free)
+* Copyright: 2019 IconPicker
+* Licence: MIT ('https://opensource.org/licenses/MIT')
 */
 
 // DEMO: IconPicker on
 IconPicker.Init({
-    jsonUrl: 'dist/iconpicker-1.5.0.json',
+    jsonUrl: 'dist/iconpicker-1.6.0.json',
 });
 IconPicker.Run('#GetIconPicker', function () {
     console.log('Icon Picker');
