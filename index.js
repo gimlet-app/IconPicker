@@ -1,7 +1,7 @@
 /*!
 * IconPicker DEMO ('https://github.com/furcan/IconPicker')
 * Version: 6.5.1
-* Author: Furkan MT ('https://github.com/furcan') + Eric (v6 update)
+* Author: Furkan MT ('https://github.com/furcan') + Gimlet ('https://github.com/gimlet-app')
 * Dependencies: FontAwesome v6.51 (https://fontawesome.com/license)
 * Copyright: 2023 IconPicker
 * Licence: MIT ('https://opensource.org/licenses/MIT')

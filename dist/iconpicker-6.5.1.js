@@ -1,9 +1,10 @@
 ﻿/*!
 * IconPicker ('https://github.com/gimlet-app/IconPicker')
 * Version: 6.5.1
-* Author: Furkan MT ('https://github.com/furcan')
+* Author: Furkan MT ('https://github.com/furcan') + Gimlet ('https://github.com/gimlet-app')
 * Dependencies: Font Awesome Pro v6.5.1 (https://fontawesome.com/license)
-* Copyright 2023 IconPicker, MIT Licence ('https://opensource.org/licenses/MIT')*
+* Copyright: 2023 IconPicker
+* Licence: MIT ('https://opensource.org/licenses/MIT')
 */
 
 'use strict';
