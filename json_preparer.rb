@@ -4,7 +4,7 @@ require 'json'
 include CssParser
 
 ## OUTPUTS
-FILENAME = 'iconpicker-1.6.0.json'
+FILENAME = 'iconpicker-6.5.1.json'
 DIRPATH = 'dist'
 
 # Init a CssParser
@@ -13,13 +13,13 @@ brands_parser = CssParser::Parser.new
 
 # Load the local CSS file, setting the base_dir and media_types
 # Copy just the icon selectors from all.css and place into icons.css
-all_parser.load_file!('icons.css', 'dist/fontawesome-pro-6.0.0-beta2/css', :screen)
+all_parser.load_file!('all.css', 'dist/fontawesome-pro-6.5.1-web/css', :screen)
 # Load the local CSS file, setting the base_dir and media_types
-brands_parser.load_file!('brands.css', 'dist/fontawesome-pro-6.0.0-beta2/css', :screen)
+# brands_parser.load_file!('brands.css', 'dist/fontawesome-pro-6.0.0-beta2/css', :screen)
 
 # Filter by a selector and media type
 all_parser.find_by_selector('.fa-', [:all])
-brands_parser.find_by_selector('.fa-', [:all])
+#brands_parser.find_by_selector('.fa-', [:all])
 
 # In: '.fa.fa-pulse::before'
 # Out: 'fa fa-pulse'

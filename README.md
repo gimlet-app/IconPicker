@@ -4,14 +4,13 @@
 
 
 # Icon Picker
-Use the Font Awesome Icons (Font Awesome Free v5.11.2) in your HTML forms. (1544 icons)
-
+Use the Font Awesome Pro Icons (Font Awesome Pro v6.5.1) in your HTML forms.
 
 ### Current Version
-1.5.0 [*](https://github.com/furcan/IconPicker/blob/master/ReleaseNotes.md)
+6.5.1 [*](https://github.com/furcan/IconPicker/blob/master/ReleaseNotes.md)
 
 ### Website and Demo
-https://furcan.github.io/IconPicker/
+https://github.com/gimlet-app/IconPicker
 
 ---------
 
@@ -31,15 +30,14 @@ yarn add @furcan/iconpicker
 #### 1- CSS
 
 ```html
-<link rel="stylesheet" href="dist/fontawesome-5.11.2/css/all.min.css" />
-
-<link rel="stylesheet" href="dist/iconpicker-1.5.0.css" />
+<link rel="stylesheet" href="dist/fontawesome-pro-6.5.1-web/css/all.min.css" />
+<link rel="stylesheet" href="dist/iconpicker-6.5.1.css" />
 ```
 
 #### 2- JavaScript
 
 ```html
-<script src="dist/iconpicker-1.5.0.js"></script>
+<script src="dist/iconpicker-6.5.1.js"></script>
 ```
 
 #### 3- HTML
@@ -53,14 +51,14 @@ yarn add @furcan/iconpicker
 ```js
 // Default options
 IconPicker.Init({
-  // Required: You have to set the path of IconPicker JSON file to "jsonUrl" option. e.g. '/content/plugins/IconPicker/dist/iconpicker-1.5.0.json'
+  // Required: You have to set the path of IconPicker JSON file to "jsonUrl" option. e.g. '/content/plugins/IconPicker/dist/iconpicker-6.5.1.json'
   jsonUrl: null,
   // Optional: Change the buttons or search placeholder text according to the language.
   searchPlaceholder: 'Search Icon',
   showAllButton: 'Show All',
   cancelButton: 'Cancel',
-  noResultsFound: 'No results found.', // v1.5.0 and the next versions
-  borderRadius: '20px', // v1.5.0 and the next versions
+  noResultsFound: 'No results found.', // v6.5.1 and the next versions
+  borderRadius: '20px', // v6.5.1 and the next versions
 });
 ```
 
@@ -70,8 +68,6 @@ IconPicker.Init({
 // Select your Button element (ID or Class)
 IconPicker.Run('#GetIconPicker');
 ```
-
-
 
 #### 5.2- Run with a callback function (v1.4.0 and next versions)
 
@@ -93,7 +89,7 @@ IconPicker.Run('#GetIconPicker', function(){
 ---------
 
 #### Copyright
-Copyright © 2019 Icon Picker
+Copyright © 2023 Icon Picker
 
 #### License
 MIT license - https://opensource.org/licenses/MIT
