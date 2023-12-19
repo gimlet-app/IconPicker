@@ -9,7 +9,7 @@
 
 // DEMO: IconPicker on
 IconPicker.Init({
-    jsonUrl: 'dist/iconpicker-6.5.1.json',
+    jsonUrl: './IconPicker/dist/iconpicker-6.5.1.json',
 });
 IconPicker.Run('#GetIconPicker', function () {
     console.log('Icon Picker');
